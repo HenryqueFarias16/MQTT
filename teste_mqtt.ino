@@ -16,10 +16,10 @@ PubSubClient client(espClient);
 WiFiManager wifiManager;
 //------------------------------------------------------------------------
 // Configuração do MQTT
-const char* mqttServer = "soldier.cloudmqtt.com";                         // O endereço do seu servidor MQTT;
-const int   mqttPort = 17614;                                             // A porta MQTT;
-const char* mqttUser = "oomwckwg";                                        // O nome de usuario MQTT;
-const char* mqttPassword = "1b4hfdhKfdjj";  // A senha MQTT;
+const char* mqttServer = "-----";                         // O endereço do seu servidor MQTT;
+const int   mqttPort = -----;                                             // A porta MQTT;
+const char* mqttUser = "-------";                                        // O nome de usuario MQTT;
+const char* mqttPassword = "------";  // A senha MQTT;
 char msgMQTT[10];
 //------------------------------------------------------------------------
 // Declaração das Funções
